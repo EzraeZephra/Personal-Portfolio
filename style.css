@@ -1,9 +1,75 @@
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1023px) {
   body {
     background-color: rgba(0, 0, 0, 0.2);
     background-image: url(codepen-aqvRbW.png);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .textbody {
+    display: block;
+    grid-column: 1 / span 2;
+    margin-top: 18%;
+    animation-name: fadein;
+    animation-duration: 5s;
+  }
+
+  #logo {
+    font-size: 125pt;
+    color: rgba(64, 162, 187, 0.5);
+    margin-top: 40px;
+    margin-left: 36px;
+    text-align: center;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.25);
+  }
+
+  p {
+    font-size: 30pt;
+    color: white;
+    margin-top: 20px;
+    margin-left: 70px;
+    line-height: 50px;
+    text-shadow: 0 0 15px white;
+  }
+
+  .profileimg {
+    display: block;
+    grid-column: 3 / span 2;
+    animation-name: fadein;
+    animation-duration: 3s;
+  }
+
+  .profileimg img {
+    margin-top: 275px;
+    margin-left: 170px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(64, 162, 187);
+    border-radius: 100%;
+    transition: box-shadow 3s;
+    animation-name: spin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 }

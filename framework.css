@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1000px) {
   .nav {
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@
     flex-flow: row;
     height: fit-content;
     background-color: rgb(58, 58, 58);
-    font-size: larger;
+    font-size: 20pt;
   }
 
   .nav ul {
@@ -29,6 +29,7 @@
 
   #homebtn {
     display: block;
+    text-shadow: 0 0 15px white;
     text-decoration: none;
     color: white;
     padding: 20px 40px;
@@ -41,6 +42,7 @@
 
   .nav ul a {
     text-decoration: none;
+    text-shadow: 0 0 15px white;
     color: white;
     padding: 20px 40px;
   }
@@ -54,7 +56,8 @@
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    max-width: 1080px;
+    grid-template-rows: fit-content;
+    max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
   }
