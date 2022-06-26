@@ -12,7 +12,7 @@
     grid-column: 1 / span 2;
     margin-top: 18%;
     animation-name: fadein;
-    animation-duration: 8s;
+    animation-duration: 5s;
   }
 
   #logo {
@@ -35,9 +35,12 @@
 
   .profileimg {
     display: block;
+    opacity: 0;
     grid-column: 3 / span 2;
+    animation-delay: 2s;
     animation-name: fadein;
-    animation-duration: 7s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
 
   .profileimg img {
@@ -47,6 +50,7 @@
     height: 200px;
     box-shadow: 0 0 10px rgba(64, 162, 187);
     border-radius: 100%;
+    animation-delay: 3750ms;
     transition: box-shadow 3s;
     animation-name: spin;
     animation-duration: 10s;
@@ -54,6 +58,7 @@
     animation-timing-function: linear;
   }
 
+  /*Animations*/
   @keyframes spin {
     from {
       transform: rotate(0deg);
@@ -108,7 +113,10 @@
 
   .profileimg {
     animation-name: fadein;
-    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
   }
 
   .profileimg img {
@@ -117,6 +125,7 @@
     height: 30vw;
     box-shadow: 0 0 10px rgba(64, 162, 187);
     border-radius: 100%;
+    animation-delay: 3750ms;
     transition: box-shadow 3s;
     animation-name: spin;
     animation-duration: 10s;
@@ -127,6 +136,7 @@
     margin-top: 5vh;
   }
 
+  /*Animations*/
   @keyframes spin {
     from {
       transform: rotate(0deg);

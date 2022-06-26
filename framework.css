@@ -37,6 +37,10 @@
     text-decoration: none;
     color: white;
     padding: 20px 40px;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
 
   #homebtn:hover {
@@ -49,6 +53,10 @@
     text-shadow: 0 0 15px white;
     color: white;
     padding: 20px 40px;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
 
   .nav ul a:hover {
@@ -64,6 +72,16 @@
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /*Animations*/
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 
@@ -94,6 +112,10 @@
     padding: 15px;
     width: 100vw;
     text-align: center;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
 
   #homebtn:hover {
@@ -109,6 +131,10 @@
     padding: 15px;
     width: 100vw;
     text-align: center;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
 
   .navbtnMB:hover {
@@ -134,5 +160,15 @@
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /*Animations*/
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
