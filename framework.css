@@ -44,7 +44,7 @@
   }
 
   #homebtn:hover {
-    background-color: rgb(37, 94, 109);
+    background-color: rgba(37, 94, 109, 0.5);
     transition: background-color 1s;
   }
 
@@ -60,7 +60,7 @@
   }
 
   .nav ul a:hover {
-    background-color: rgb(37, 94, 109);
+    background-color: rgba(37, 94, 109, 0.5);
     transition: background-color 1s;
   }
 
@@ -100,8 +100,6 @@
 
   .nav ul {
     display: none;
-    list-style: none;
-    line-height: auto;
   }
 
   #homebtn {
@@ -119,7 +117,7 @@
   }
 
   #homebtn:hover {
-    background-color: rgb(37, 94, 109);
+    background-color: rgba(37, 94, 109, 0.5);
     transition: background-color 1s;
   }
 
@@ -138,20 +136,7 @@
   }
 
   .navbtnMB:hover {
-    background-color: rgb(37, 94, 109);
-    transition: background-color 1s;
-  }
-
-  .nav ul a {
-    text-decoration: none;
-    text-shadow: 0 0 15px white;
-    color: white;
-    padding: 20px 40px;
-    margin-right: 1000px;
-  }
-
-  .nav ul a:hover {
-    background-color: rgb(37, 94, 109);
+    background-color: rgba(37, 94, 109, 0.5);
     transition: background-color 1s;
   }
 
